@@ -1,0 +1,109 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #ffe6f0; /* soft pink */
+  color: #333;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #d63384; /* vibrant magenta-pink for anime title */
+  margin-bottom: 2rem;
+}
+
+.Grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Cards {
+  background-color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.Cards img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #f3f3f3;
+}
+
+.Cards h2 {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.Cards p {
+  margin: 0 1rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.Cards a {
+  display: inline-block;
+  margin: 0 1rem 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #d63384; /* vibrant magenta-pink */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+
+
+/* Responsive for tablets */
+@media only screen and (max-width: 768px) {
+  .Grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 1rem;
+  }
+
+  .Cards h2 {
+    font-size: 1.25rem;
+  }
+
+  .Cards p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Responsive for mobile phones */
+@media only screen and (max-width: 480px) {
+  .Grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .Cards {
+    margin: 0 auto;
+  }
+
+  .Cards h2,
+  .Cards p {
+    font-size: 1rem;
+  }
+
+  .Cards a {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.8rem;
+  }
+}
