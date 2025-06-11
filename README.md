@@ -1,8 +1,8 @@
-# Web Development Project 1 - *10 MOST WATCHED ANIME THIS SEASON*
+# Web Development Project 1 - *10 Most Watched Anime This Season*
 
 Submitted by: **Therese Elvira Mombou Gatsing**
 
-This web app: **This community board shows the 10 most watched anime this season and links where to watch them. It is implemented with React and Vite.**
+This web app: **This community board displays the 10 most-watched anime this season and provides links to where you can watch them. It is built using React and Vite.**
 
 Time spent: **8** hours spent in total
 
@@ -27,8 +27,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [x] List anything else that you added to improve the site's functionality!
-*I added a pink background to the page, some lightblue background to the cards and a Turquoise background for the box surrounding the link. This was to improve the visual effect of the web app.
+* [x] I added a pink background to the page, a light blue background to the cards, and a turquoise background to the box surrounding the link to enhance the visual appeal of the web app.
 
 ## Video Walkthrough
 
@@ -44,7 +43,7 @@ GIF created with ScreenToGif
 
 Describe any challenges encountered while building the app.
 
-Implementing the responsive properties.
+Implementing the responsive features was challenging, but through a lot of trial and error and research, I was able to make it work successfully.
 
 ## License
 
